@@ -1,5 +1,5 @@
-# Bili-Loop
-Bilibili 视频自定义循环插件
+# Bili-Loop  
+Bilibili 视频自定义循环插件  
 
 ##如何开始  
 *下载本项目文件的压缩文件并解压  
