@@ -57,12 +57,17 @@ setTimeout(function() {
 		console.log(endtime)
 		window.commentAgent.seek(starttime) 
 		i = 0
+		if (mytimeout) {
+			clearTimeout(mytimeout)
+			mytimeout = null
+		}
 		myLoop(starttime, endtime)
 	}
 	
 	document.getElementById('break').onclick = function() {
 		i = -99
 		clearInterval(mytimeout)
+		mytimeout = null
 	}
 	
 },1000)
