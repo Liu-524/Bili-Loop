@@ -1,0 +1,46 @@
+{
+	
+	"manifest_version": 2,
+	
+	"name": "demo",
+	
+	"version": "1.0.0",
+	
+	"description": "bili-looper",
+	
+	
+	"browser_action": 
+	{	
+		"default_title": "popup deprecated!",
+		"default_popup": "popup.html"
+	},
+	
+	
+	"content_scripts": 
+	[
+		{
+
+			"matches": ["https://*.bilibili.com/*"],
+			
+			"js": ["injector.js"],
+			
+			"run_at": "document_end"
+		}
+	],
+	
+	"permissions":
+	[
+		"contextMenus", 
+		"tabs", 
+		"notifications", 
+		"webRequest", 
+		"webRequestBlocking",
+		"storage"
+	],
+	"web_accessible_resources": [
+        "*.js"
+    ],
+	"homepage_url": "https://127.0.0.1"
+	
+	
+}
