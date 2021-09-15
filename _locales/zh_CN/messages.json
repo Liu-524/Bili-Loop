@@ -1,0 +1,10 @@
+{
+    "title": {
+        "message": "Bilibili循环插件",
+        "description": "标题"
+    },
+    "desc": {
+        "message": "可以使用页面组件自定义需要循环播放的视频片段，欢迎使用！",
+        "descreption": "介绍"
+    }
+}

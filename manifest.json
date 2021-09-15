@@ -2,11 +2,13 @@
 	
 	"manifest_version": 2,
 	
-	"name": "demo",
+	"default_locale": "zh_CN",
+
+	"name": "__MSG_title__",
 	
 	"version": "1.0.0",
 	
-	"description": "bili-looper",
+	"description": "__MSG_desc__",
 	
 	
 	"browser_action": 
@@ -41,6 +43,8 @@
         "*.js"
     ],
 	"homepage_url": "https://127.0.0.1"
+
+	
 	
 	
 }
