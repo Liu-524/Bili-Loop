@@ -14,3 +14,7 @@ Bilibili 视频自定义循环插件
 * 在视频下方注入了循环开始和结束的时间输入框
 * 播放视频并点击Loop
 * 刷新页面或点击Stop Loop结束  
+
+## 可用的浏览器  
+* 经过测试的浏览器: Chrome, Edge (Chromium)
+* 可以支持的浏览器: 基于Chromium内核可使用Chrome插件的浏览器
