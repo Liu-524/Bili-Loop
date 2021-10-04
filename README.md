@@ -1,6 +1,6 @@
 # Bili-Loop  
-Bilibili 视频自定义循环插件
-微软Edge插件商店链接: https://microsoftedge.microsoft.com/addons/detail/bilibili%E5%BE%AA%E7%8E%AF%E6%8F%92%E4%BB%B6/cfncjemlikclmiibobhcmbnlmhkccadg?hl=zh-CN
+Bilibili 视频自定义循环插件  
+微软Edge插件商店链接: <a href="https://microsoftedge.microsoft.com/addons/detail/bilibili%E5%BE%AA%E7%8E%AF%E6%8F%92%E4%BB%B6/cfncjemlikclmiibobhcmbnlmhkccadg?hl=zh-CN"> 链接</a>
 
 ##  如何开始  
 * 下载本项目文件的压缩文件并解压  
