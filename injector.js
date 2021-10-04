@@ -5,5 +5,4 @@ function injectScript(file, node) {
     s.setAttribute('src', file);
     th.appendChild(s);
 }
-injectScript( chrome.extension.getURL('content-script.js'), 'body');
-
+setTimeout( injectScript( chrome.extension.getURL('content-script.js'), 'body'), 1000);

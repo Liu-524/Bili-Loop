@@ -6,7 +6,7 @@
 
 	"name": "__MSG_title__",
 	
-	"version": "1.0.0",
+	"version": "1.1.0",
 	
 	"description": "__MSG_desc__",
 	
@@ -14,38 +14,29 @@
 		"237" : "icon.png"
 	},
 
-	"browser_action": 
-	{	
-		"default_title": "popup deprecated!",
-		"default_popup": "popup.html"
-	},
+	
 	
 	
 	"content_scripts": 
 	[
 		{
 
-			"matches": ["https://*.bilibili.com/*"],
+			"matches": ["https://*.bilibili.com/video/*"],
 			
 			"js": ["injector.js"],
 			
-			"run_at": "document_end"
+			"run_at": "document_idle"
 		}
 	],
 	
 	"permissions":
 	[
-		"contextMenus", 
-		"tabs", 
-		"notifications", 
-		"webRequest", 
-		"webRequestBlocking",
-		"storage"
+		"tabs"
 	],
 	"web_accessible_resources": [
         "*.js"
     ],
-	"homepage_url": "https://127.0.0.1"
+	"homepage_url": "https://github.com/Liu-524/Bili-Loop"
 
 	
 	
