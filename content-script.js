@@ -32,6 +32,9 @@ function ui_setup() {
 	try {
 		setTimeout(function() {
 			var tar = document.getElementsByClassName("ops")[0];//original: rigth-btn
+			if (!tar) {
+				tar = document.getElementById("arc_toolbar_report");
+			}
 			if (tar) {
 				var start = document.createElement('input');
 				start.className = 'bilibili-player-video-time-seek';
