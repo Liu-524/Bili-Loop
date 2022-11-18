@@ -31,16 +31,18 @@ function myLoop(s,e) {
 function ui_setup() {
 	try {
 		setTimeout(function() {
-			var tar = document.getElementsByClassName("rigth-btn")[0];
+			var tar = document.getElementsByClassName("ops")[0];//original: rigth-btn
 			if (tar) {
 				var start = document.createElement('input');
 				start.className = 'bilibili-player-video-time-seek';
 				start.id = 'start';
 				start.placeholder = 's00:00:00';
+				start.style.width='auto'
 				var end = document.createElement('input');
 				end.className = 'bilibili-player-video-time-seek';
 				end.id = 'end';
 				end.placeholder = "e00:00:00";
+				end.style.width='auto'
 				var submit = document.createElement('button');
 				submit.className = 'bui bui-button';
 				submit.id = 'submitloop';
